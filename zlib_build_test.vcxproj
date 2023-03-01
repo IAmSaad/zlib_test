@@ -131,24 +131,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\adler32.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\compress.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\crc32.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\deflate.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzclose.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzlib.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzread.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzwrite.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\infback.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\inffast.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\inflate.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\inftrees.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\trees.c">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">~\zlib_build_test\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">~\zlib_build_test\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\uncompr.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\zutil.c" />
+    <ClCompile Include="includes\adler32.c" />
+    <ClCompile Include="includes\compress.c" />
+    <ClCompile Include="includes\crc32.c" />
+    <ClCompile Include="includes\deflate.c" />
+    <ClCompile Include="includes\gzclose.c" />
+    <ClCompile Include="includes\gzlib.c" />
+    <ClCompile Include="includes\gzread.c" />
+    <ClCompile Include="includes\gzwrite.c" />
+    <ClCompile Include="includes\infback.c" />
+    <ClCompile Include="includes\inffast.c" />
+    <ClCompile Include="includes\inflate.c" />
+    <ClCompile Include="includes\inftrees.c" />
+    <ClCompile Include="includes\trees.c" />
+    <ClCompile Include="includes\uncompr.c" />
+    <ClCompile Include="includes\zutil.c" />
     <ClCompile Include="zlib_build_test.cpp" />
   </ItemGroup>
   <ItemGroup>

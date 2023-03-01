@@ -18,49 +18,49 @@
     <ClCompile Include="zlib_build_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\adler32.c">
+    <ClCompile Include="includes\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\compress.c">
+    <ClCompile Include="includes\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\crc32.c">
+    <ClCompile Include="includes\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\deflate.c">
+    <ClCompile Include="includes\deflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzclose.c">
+    <ClCompile Include="includes\gzclose.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzlib.c">
+    <ClCompile Include="includes\gzlib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzread.c">
+    <ClCompile Include="includes\gzread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\gzwrite.c">
+    <ClCompile Include="includes\gzwrite.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\infback.c">
+    <ClCompile Include="includes\infback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\inffast.c">
+    <ClCompile Include="includes\inffast.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\inflate.c">
+    <ClCompile Include="includes\inflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\inftrees.c">
+    <ClCompile Include="includes\inftrees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\trees.c">
+    <ClCompile Include="includes\trees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\uncompr.c">
+    <ClCompile Include="includes\uncompr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\zutil.c">
+    <ClCompile Include="includes\zutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
