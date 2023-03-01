@@ -11,3 +11,6 @@ The /x64/Release/ directory contains the test program "zlib_build_test.exe" in i
 Run the program from command line like this:
 
 `zlib_build_test.exe -c "file_to_compress_with_extension" "name_of_compressed_output_file_with_extension"`
+
+## About the Code
+`zlib_build_test.cpp`: is the main file that has been modified from the zpipe.c example file. It contains all the functionality of the example program like command line handling, file handling, doing compression at two levels, printing compression statistics and timing etc
