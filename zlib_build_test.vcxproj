@@ -143,7 +143,10 @@
     <ClCompile Include="D:\Visual Studio libraries\zlib-master\inffast.c" />
     <ClCompile Include="D:\Visual Studio libraries\zlib-master\inflate.c" />
     <ClCompile Include="D:\Visual Studio libraries\zlib-master\inftrees.c" />
-    <ClCompile Include="D:\Visual Studio libraries\zlib-master\trees.c" />
+    <ClCompile Include="D:\Visual Studio libraries\zlib-master\trees.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">~\zlib_build_test\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">~\zlib_build_test\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="D:\Visual Studio libraries\zlib-master\uncompr.c" />
     <ClCompile Include="D:\Visual Studio libraries\zlib-master\zutil.c" />
     <ClCompile Include="zlib_build_test.cpp" />
