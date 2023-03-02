@@ -1,4 +1,4 @@
-# Testing zlib for CERN's FASER project 
+# Benchmarking zlib
 Evaluation program (Windows only at this time) for testing zlib's capabilities.
 Heavily based on https://www.zlib.net/zlib_how.html and zpipe.c, testzlib.c examples from zlib's github repository.
 
