@@ -18,6 +18,13 @@ The "sample.txt" provided in the same folder (/release) can be used to test out 
 
 Here sample.z is the output file's name. The .z extension is randomly given and can be alphanumeric combination.
 
+## Results
+Using the exe with the given sample.txt file, I get the following results
+
+```Original file size is 507421 bytes
+Default compression took 33 milliseconds and produced 177141 bytes (2.86 compression ratio)
+Best compression took 48 milliseconds and produced 176172 bytes (2.88 compression ratio)```
+
 ## About the Code
 `zlib_build_test.cpp`: is the main file that has been modified from the zlib/example/zpipe.c. It contains all the functionality of the example program like command line argument handling, file handling, doing compression at two levels, printing compression statistics and timing etc.
 
