@@ -27,7 +27,7 @@ Best compression took 48 milliseconds and produced 176172 bytes (2.88 compressio
 ```
 
 ## Limitations of current implementation
-The statistics like compression time can vary as the compression is not tested multiple times, and thus time especially varies in the first iteration. Multiple compression runs and averaging compression time is planned in future
+The statistics like compression time can vary as the compression is not done multiple times and averaged, and thus time especially varies (mostly in the first iteration). Multiple compression runs and averaging compression time is planned in future
 
 ## About the Code
 `zlib_build_test.cpp`: is the main file that has been modified from the zlib/example/zpipe.c. It contains all the functionality of the example program like command line argument handling, file handling, doing compression at two levels, printing compression statistics and timing etc.
