@@ -1,6 +1,6 @@
 # Testing zlib for CERN's FASER project 
 Evaluation program (Windows only at this time) for testing zlib's capabilities.
-Heavily based on https://www.zlib.net/zlib_how.html and zpipe.c, testzlib.c examples from zlib's github
+Heavily based on https://www.zlib.net/zlib_how.html and zpipe.c, testzlib.c examples from zlib's github repository.
 
 ## Info
 Compresses an input file using zlib's two distinct compression levels namely `Z_DEFAULT_COMPRESSION` (optimal speed/compression tradeoff) and `Z_BEST_COMPRESSION` (best compression ratio), reports the output compressed file sizes and compression ratios along with the time taken to do both compressions.
