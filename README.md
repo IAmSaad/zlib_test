@@ -12,9 +12,11 @@ Run the program from command line like this:
 
 `zlib_build_test.exe -c "file_to_compress_with_extension" "name_of_compressed_output_file_with_extension"`
 
-The `sample.txt` provided in the release folder can be used to test out this program, in that case to run the program the command will be :
+The `sample.txt` provided in the same folder (/release) can be used to test out this program, in this case to run the program the command will be :
 
-`zlib_build_test.exe -c "sample.txt" "sample.z"` where sample.z is the output file's name. The .z extension is randomly given.
+`zlib_build_test.exe -c "sample.txt" "sample.z"` 
+
+Here sample.z is the output file's name. The .z extension is randomly given and can be alphanumeric combination.
 
 ## About the Code
 `zlib_build_test.cpp`: is the main file that has been modified from the zlib/example/zpipe.c. It contains all the functionality of the example program like command line argument handling, file handling, doing compression at two levels, printing compression statistics and timing etc.
