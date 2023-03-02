@@ -3,7 +3,7 @@ Evaluation program for testing zlib's capabilities.
 Heavily based on https://www.zlib.net/zlib_how.html and zpipe.c, testzlib.c examples from zlib's github
 
 ## Info
-Compresses an input file using zlib's two distinct compression levels namely `Z_DEFAULT_COMPRESSION` (provides optimal speed and compression tradeoff) and `Z_BEST_COMPRESSION` (gives best compression results), reports the output compressed file sizes and compression ratios along with the time taken to do both compressions.
+Compresses an input file using zlib's two distinct compression levels namely `Z_DEFAULT_COMPRESSION` (provides optimal speed/compression tradeoff) and `Z_BEST_COMPRESSION` (gives best compression ratio), reports the output compressed file sizes and compression ratios along with the time taken to do both compressions.
 
 ## Usage
 The /x64/Release/ directory contains the test program "zlib_build_test.exe" in it. 
