@@ -12,7 +12,7 @@ Run the program from command line like this:
 
 `zlib_build_test.exe -c "file_to_compress_with_extension" "name_of_compressed_output_file_with_extension"`
 
-The `sample.txt` provided in the same folder (/release) can be used to test out this program, in this case to run the program the command will be :
+The "sample.txt" provided in the same folder (/release) can be used to test out this program, in this case to run the program the command will be :
 
 `zlib_build_test.exe -c "sample.txt" "sample.z"` 
 
