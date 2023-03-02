@@ -17,7 +17,7 @@ The `sample.txt` provided in the release folder can be used to test out this pro
 `zlib_build_test.exe -c "sample.txt" "sample.z"` where sample.z is the output file's name. The .z extension is randomly given.
 
 ## About the Code
-`zlib_build_test.cpp`: is the main file that has been modified from the zpipe.c example file. It contains all the functionality of the example program like command line handling, file handling, doing compression at two levels, printing compression statistics and timing etc.
+`zlib_build_test.cpp`: is the main file that has been modified from the zlib/example/zpipe.c. It contains all the functionality of the example program like command line argument handling, file handling, doing compression at two levels, printing compression statistics and timing etc.
 
 ## Building the Code
 Download the .zip file, extract and open the *"zlib_build_test.sln"* using *Visual Studio 2022 Community Edition*. Once it is opened, build the project. The built executable zlib_build_test.exe will be in the x64/Release folder
